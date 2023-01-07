@@ -50,6 +50,9 @@
    color: #005FAC;
  }
  /* section container */
+ .container{
+  margin-bottom: 120px;
+ }
  .section-container{
 
   float: right;
@@ -62,6 +65,7 @@
   width:300px;
   height:300px;
   margin-left:150px;
+  
  }
 .section-title{
   font-weight: 700;
@@ -80,4 +84,66 @@
   font-weight: 400;
 font-size: 16px;
 color: #444343;
+}
+/* My plan */
+.my-plans{
+  margin-top: 130px;
+  margin-bottom: 130px;
+  
+}
+.plan-title{
+  text-align: center;
+  margin-top: 100px;
+}
+.skills-container{
+  margin-top: 300px;
+  display: flex;
+  gap: 100px;
+  margin-left: 250px;
+  margin-right: 210px;
+}
+.skill-title{
+  font-weight: 700;
+  font-size: 25px;
+  color: #151414;
+  margin-bottom: 12px;
+
+}
+.skill-description{
+  font-weight: 300px;
+font-size: 18px;
+color: #737272;
+
+}
+/* positive minds */
+.last-section{
+  margin-bottom: 130px;
+}
+
+.last-title{
+  background-image: url('../images/gradient1.png');
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 150px;
+  margin-left: 230px;
+  margin-right: 230px;
+  
+}
+
+.last-section-title{
+  margin-top: 55px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.btn-last-primary{
+  background: #FFFFFF;
+   border-radius: 4px;
+   padding: 12px 28px;
+   font-weight: 600;
+   font-size: 20px;
+   color: #005FAC;
+   margin-left: 60px;
 }
