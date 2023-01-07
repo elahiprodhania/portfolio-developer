@@ -9,6 +9,8 @@
     background-size: cover;
     width: 1400px;
     height: 700px;
+    margin-bottom: 141px;
+    
 }
  .banner{
     float: right;
@@ -47,3 +49,35 @@
    font-size: 20px;
    color: #005FAC;
  }
+ /* section container */
+ .section-container{
+
+  float: right;
+  align-items: center;
+  margin-left: 800px;
+  margin-right: 250px;
+  margin-top: 300px;
+}
+ .section-banner{
+  width:300px;
+  height:300px;
+  margin-left:150px;
+ }
+.section-title{
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 30px;
+}
+.section-description{
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 15px;
+}
+.section-content{
+  gap: 8px;
+  font-weight: 400;
+font-size: 16px;
+color: #444343;
+}
