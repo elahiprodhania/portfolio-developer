@@ -65,7 +65,7 @@
   width:300px;
   height:300px;
   margin-left:150px;
-  
+
  }
 .section-title{
   font-weight: 700;
@@ -146,4 +146,64 @@ color: #737272;
    font-size: 20px;
    color: #005FAC;
    margin-left: 60px;
+}
+/* footer sections */
+.footer{
+  display: flex;
+  width: 1400px;
+  height: 400px;
+  background:black;
+
+}
+.footer-section{
+  
+  color: #F8F8F8;
+  margin-top: 120px;
+  margin-left: 200px;
+  margin-right: 400px;
+}
+.footer-contact{
+  color: #F8F8F8;
+  margin-top: 120px;
+  margin-right: 230px;
+ 
+}
+.footer-title{
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+.footer-description{
+  font-weight: 400;
+font-size: 16px;
+margin-bottom: 24px;
+
+}
+.right-title{
+  font-weight: 600;
+font-size: 25px;
+margin-bottom: 30PX;
+}
+.email{
+  
+   background-color: #151414;
+  font-weight: 400;
+  font-size: 18px;
+  color: #F3F3F3; 
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  margin-bottom:30px;
+
+}
+.footer-btn-primary{
+  font-weight: 600;
+font-size: 20px;
+
+color: #FFFFFF;
+padding: 8px 8px;
+
+background: #005FAC;
+border-radius: 4px;
 }
